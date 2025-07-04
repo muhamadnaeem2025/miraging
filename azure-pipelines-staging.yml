@@ -1,0 +1,11 @@
+# azure-pipelines-staging.yml
+trigger:
+  branches:
+    include:
+      - staging
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - script: echo "This is the STAGING pipeline"
