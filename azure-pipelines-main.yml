@@ -1,0 +1,11 @@
+# azure-pipelines-main.yml
+trigger:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - script: echo "This is the MAIN pipeline"
