@@ -8,4 +8,4 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-  - script: echo "This is the STAGING pipeline"
+  - script: echo "This is the STAGING pipeline and test to mirage again"
